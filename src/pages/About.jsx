@@ -1,15 +1,27 @@
+const myAge = 28
+const myName = "Jacob Hairfield"
+const imgAspectRatio = 445 / 566; // width divided by height for aspect ratio
+const imgHeight = 200;
+const imgWidth = imgHeight * imgAspectRatio;
+
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
+      <img src="./src/assets/65115206_10216266979521817_8966192826849165312_n (2).jpg" alt="a headshot of me" style={{ width: `${imgWidth}px`, height: `${imgHeight}px` }} ></img>
+      
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+       My name is {myName} and I am {myAge} years old. I'm relatively new to web development, but over the past 6 months I have learned alot and proved that I can be commited to something if I stay focused. 
+       I have created several web based applications using a plethora of technologies; with my favorites being: react, node.js, mysql, sql, just to name a few. I prefer working on the back end for applications because It allows be to be more creative and keeps my "problem solving" brain active, but front end is ok too. Excluding CSS.  
       </p>
+      <ul>
+        <li>
+      < a href = "https://github.com/lilcobby"> My Github Profile </a> 
+      </li>
+      <li>
+      < a href = "https://www.linkedin.com/in/jacob-hairfield-1340a6249/"> My Linkedin Profile</a>
+      </li>
+      </ul>
     </div>
   );
 }
