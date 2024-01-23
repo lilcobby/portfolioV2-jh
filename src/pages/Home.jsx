@@ -1,19 +1,18 @@
+
+
+
 export default function Home() {
   return (
-    <div className = "container">
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
-    </div>
+     <div className="container">
+       <h1>Home Page</h1>
+       <p># the future plan for this is to make the entire page look like an old school "matrix" terminal. when pages load, there will be a short time that either loads a "buggy" error screen" or a "loading screen"- future dev</p>
+       <p>
+         This is my home page. For now, we are going to put a hero image here like a welcoming statement or something. I don't know yet.
+       </p>
+ 
+       <div className="hero-image">
+         <img src="./src/assets/1631937037549.png" alt="halo 2 baby!!!" />
+       </div>
+     </div>
   );
-}
+ }
