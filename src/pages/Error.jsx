@@ -11,6 +11,7 @@ export default function ErrorPage() {
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
+      <img src = "./src/assets/glitchy.png" alt = "glitched image for error screen" className="fullscreen-link"></img>
     </div>
   );
 }
