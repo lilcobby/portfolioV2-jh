@@ -31,14 +31,18 @@ export default function Resume() {
     <h4>Degree, School</h4>
     <p>Graduation Year | Location</p>
 
-    <h3>Projects</h3>
-    <h4>Project Name</h4>
-    <p>Project Description</p>
+    <h3>Projects:</h3>
     <ul>
-        <li>Technology or framework used</li>
-        <li>Key feature or functionality</li>
+      <li>
+    <h4>Project 1</h4>
+    <p>Project Description 1</p>
+    <ul>
+        <li>Technology used</li>
+        <li>Key features or functionality</li>
     </ul>
-
+    </li>
+  </ul>
+  
     <h3>Languages</h3>
     <ul>
         <li>English (native)</li>
