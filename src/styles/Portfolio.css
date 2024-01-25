@@ -8,9 +8,7 @@
   .projectPort {
     width: calc(50% - 10px);
     margin-bottom: 20px;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
+
   }
   
   @media (max-width: 768px) {
