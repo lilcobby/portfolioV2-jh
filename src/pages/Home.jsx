@@ -11,7 +11,7 @@ export default function Home() {
        </p>
  
        <div className="hero-image">
-         <img src="./src/assets/1631937037549.png" alt="halo 2 baby!!!" />
+         <img src="./public/assets/1631937037549.png" alt="halo 2 baby!!!" />
        </div>
      </div>
   );
