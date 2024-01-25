@@ -9,7 +9,7 @@ export default function About() {
     // className container is the same as class container so that built in js doesnt throw errors 
     <div className = "container">
       <h1>About Page</h1>
-      <img src="./public/assets/65115206_10216266979521817_8966192826849165312_n (2).jpg" alt="a headshot of me" style={{ width: `${imgWidth}px`, height: `${imgHeight}px` }} ></img>
+      <img src="./assets/65115206_10216266979521817_8966192826849165312_n (2).jpg" alt="a headshot of me" style={{ width: `${imgWidth}px`, height: `${imgHeight}px` }} ></img>
       
       <p class = "test">
        My name is {myName} and I am {myAge} years old. I'm relatively new to web development, but over the past 6 months I have learned alot and proved that I can be commited to something if I stay focused. 
