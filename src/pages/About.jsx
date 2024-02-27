@@ -28,7 +28,7 @@ export default function About() {
         to be more creative and keeps my "problem-solving" brain active, but the
         front end is okay too, excluding CSS.
       </p>
-      <ul>
+      <ul style={{ listStyleType: "none" }}>
         <li>
           <a href="https://github.com/lilcobby">My Github Profile</a>
         </li>

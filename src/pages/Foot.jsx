@@ -1,7 +1,22 @@
 export default function Foot() {
   return (
     <div className="container" style={{ padding: "5px" }}>
-      <h1>Foot Template</h1>
+      <ul style={{ listStyleType: "none" }}>
+        <li>
+          <a href="https://github.com/lilcobby" style={{ color: "aqua" }}>
+            My Github Profile
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/jacob-hairfield-1340a6249/"
+            style={{ color: "aqua" }}
+            sty
+          >
+            My LinkedIn Profile
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
