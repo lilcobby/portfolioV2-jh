@@ -1,32 +1,4 @@
-* {
-  font-family: "Roboto";
-  background-color: rgb(96, 94, 218);
-  color: rgb(3, 4, 10);
-}
-
-.nav {
-  background-color: rgb(41, 22, 150);
-}
-
-.nav-item {
-  background-color: rgb(41, 22, 150);
-}
-
-.containerOne,
-.containerTwo {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally */
-}
-
-.projectPort {
-  width: calc(50% - 10px);
-  margin-bottom: 20px;
-  border: 2px solid black; /* Add border */
-  background-color: rgb(133, 207, 241); /* Add background color */
-  padding: 20px; /* Add padding for space inside the projectPort */
-  box-shadow: 0 0 20px rgb(18, 9, 71);
-}
+@import url("https://fonts.googleapis.com/css?family=VT323&display=swap");
 
 @media (max-width: 1080px) {
   .projectPort {
@@ -34,31 +6,20 @@
   }
 }
 
-@media (min-width: 768px) {
-  .containerOne,
-  .containerTwo {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; /* Center horizontally */
-  }
-
-  .projectPort {
-    width: calc(50% - 10px);
-    margin-bottom: 20px;
-    max-width: 50%; /* Limiting width to 50% */
-  }
-}
-
-.fullscreen-link {
-  display: block;
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
+.bg-overlay {
+  content: "";
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 100vh;
+  max-width: 100vw;
+  background-image: url("./assets/matrix_gif.gif");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
   z-index: -1;
-  opacity: 100%;
 }
 
 .Image {
@@ -68,26 +29,40 @@
   width: auto;
 }
 
-.portfolio-heading {
-  font-size: 50px; /* Adjust the font size as needed */
-  margin-bottom: 20px; /* Add some margin to separate it from the project ports */
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
 }
 
-h1,
-a,
-li,
-ul,
-h3,
-p {
-  background-color: transparent; /* Override background color for h1, h3, p */
+.dark-mode {
+  background-color: #0a0c09;
+  color: #1bd011;
+  font-family: "VT323";
+  text-shadow: #15ff00 1px 0 10px, #218103 1px 0 20px, #085202 1px 0 30px;
 }
-.containerSpecial {
-  margin: 0 auto; /* Center horizontally */
-  background-color: rgb(133, 207, 241);
-  margin-bottom: 25%;
-  margin-top: 50px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgb(18, 9, 71);
-  max-width: 600px;
+
+/* 
+nonsense for me and erics matrix gif
+[column.character1, column.character2] size 2
+[] length 3 is size 3 etc etc etc
+fade happens, removing lower positions from array, decreasing size of container. 
+li character 1
+time interval 2 seconds
+li charactr 2
+etc. 
+
+
+box that displays list elemnts. those list elements are assigned value from our array. those list element are generate on a loop based on a time interval. that time interval is set based on random x something we havnt decided yet. 
+continuiously add to array until container is max screen size. then stop. 
+
+{ 
+  {
+    all our array bits
+  }
+  {
+    all our array bits 2
+  }
+  {all our array bits 3}
+
 }
+until max width */

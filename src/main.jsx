@@ -1,23 +1,24 @@
-import ReactDOM from 'react-dom/client'
+import ReactDOM from "react-dom/client";
 // Bringing in the required imports from 'react-router-dom' to set up application routing behavior
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './styles/Portfolio.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
 
-import App from './App';
-import Error from './pages/Error';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import Resume from './pages/Resume';
-import Portfolio from './pages/Portfolio';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./styles/Portfolio.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import App from "./App";
+import Error from "./pages/Error";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import About from "./pages/About";
+import Resume from "./pages/Resume";
+import Portfolio from "./pages/Portfolio";
 
 // Define the accessible routes, and which components respond to which URL
 
-// home page should be like opening a folder. 
+// home page should be like opening a folder.
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <App />,
     errorElement: <Error />,
     children: [
@@ -27,28 +28,28 @@ const router = createBrowserRouter([
       },
       // home
       {
-        path: '/About',
+        path: "/About",
         element: <About />,
       },
       // about
       {
-        path: '/Portfolio',
+        path: "/Portfolio",
         element: <Portfolio />,
       },
       // portfolio
       {
-        path: '/Resume',
+        path: "/Resume",
         element: <Resume />,
         // resume
       },
       {
-        path: '/Contact',
+        path: "/Contact",
         element: <Contact />,
       },
     ],
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );
