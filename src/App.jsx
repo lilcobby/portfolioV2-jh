@@ -4,6 +4,8 @@ import Nav from "./components/NavTabs";
 import Head from "./pages/Header";
 import Foot from "./pages/Foot";
 
+
+
 function App() {
   // The Outlet component will conditionally swap between the different pages according to the URL
   return (

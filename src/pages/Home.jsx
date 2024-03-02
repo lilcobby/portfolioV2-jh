@@ -6,7 +6,7 @@ const imgWidth = imgHeight * imgAspectRatio;
 
 export default function Home() {
   return (
-    <div className="containerSpecial">
+    <div className="container">
       <h1>About Page</h1>
       <img
         src="./assets/65115206_10216266979521817_8966192826849165312_n (2).jpg"
@@ -15,6 +15,7 @@ export default function Home() {
           width: `${imgWidth}px`,
           height: `${imgHeight}px`,
           borderRadius: "50%",
+          margin: "30px",
         }}
       />
 

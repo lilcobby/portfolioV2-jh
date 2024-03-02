@@ -20,7 +20,7 @@ const ModeSwitch = () => {
   useEffect(() => {
     document.body.className = isDarkMode ? "dark-mode" : "light-mode";
   }, [isDarkMode]);
- 
+
   return (
     <div>
       <h1>

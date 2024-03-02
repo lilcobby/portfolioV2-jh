@@ -1,6 +1,6 @@
 export default function Foot() {
   return (
-    <div className="container" style={{ padding: "5px" }}>
+    <div className="footer" style={{ padding: "5px" }}>
       <ul style={{ listStyleType: "none" }}>
         <li>
           <a href="https://github.com/lilcobby" style={{ color: "aqua" }}>
