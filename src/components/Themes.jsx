@@ -20,10 +20,14 @@ const ModeSwitch = () => {
   useEffect(() => {
     document.body.className = isDarkMode ? "dark-mode" : "light-mode";
   }, [isDarkMode]);
-
+ 
   return (
     <div>
-      <h1>Feels Boring? Press this: </h1>
+      <h1>
+        {isDarkMode
+          ? "Too cool for you? Press the button"
+          : "A little boring? Press the button"}{" "}
+      </h1>
       <button onClick={toggleTheme}>
         {isDarkMode ? "Switch to Boring Mode" : "Switch to Matrix Mode"}
       </button>
