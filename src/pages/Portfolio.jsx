@@ -3,7 +3,7 @@ export default function Portfolio() {
   return (
     <>
       <div className="containerTwo">
-        <h1 className="portfolio-heading">Portfolio</h1>
+      
       </div>
       <div className="containerOne">
         <div className="projectPort">

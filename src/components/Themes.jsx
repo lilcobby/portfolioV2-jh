@@ -32,6 +32,7 @@ const ModeSwitch = () => {
         {isDarkMode ? "Switch to Boring Mode" : "Switch to Matrix Mode"}
       </button>
       {isDarkMode && <div className="bg-overlay"></div>}
+      {!isDarkMode && <div className="bg-overlay2"></div>}
     </div>
   );
 };

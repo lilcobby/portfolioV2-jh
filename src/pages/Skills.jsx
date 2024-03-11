@@ -1,7 +1,6 @@
 export default function Skills() {
   return (
     <div className="containerSpecial">
-      <h1>Skills Page</h1>
       <ul>
         <li>JavaScript ES6+</li>
         <li>CSS3</li>
