@@ -59,8 +59,8 @@
 
 .light-mode {
   background-color: #221e46;
-  color: #f509ba;
-  text-shadow: #9e0771 1px 0 10px, #d80993 1px 0 5px, #880367 1px 0 30px;
+  color: #5b44e0;
+  text-shadow: #0578e4 1px 0 10px, #000000 1px 0 5px, #137fb1 1px 0 30px;
 }
 
 .dark-mode {
